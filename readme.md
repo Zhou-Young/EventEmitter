@@ -1,5 +1,9 @@
 # EventEmitter
 
+EventEmitter 是 NodeJS 的核心模块 events 中的类，用于对 NodeJS 中的事件进行统一管理，用 events 特定的 API 对事件进行添加、触发和移除等等，核心方法的模式类似于发布订阅。
+
+参考网址 ： https://segmentfault.com/a/1190000016654243
+
 ### this指向问题
 
 普通的this：总是代表它的直接调用者,没找到直接调用者,则this指的是 window(匿名函数,定时器中的函数,由于没有默认的宿主对象,所以默认this指向window)。
